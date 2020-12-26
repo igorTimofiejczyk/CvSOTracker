@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode11.6
+
+before_install:
+  - cd cvsotracker-ios/
+  - pod install
+
+script:
+  - set -o pipefail && travis_retry xcodebuild -workspace cvsotracker-ios/cvsotracker.xcworkspace -scheme cvsotracker -destination 'platform=iOS Simulator,OS=13.6,name=iPhone 11' | xcpretty
