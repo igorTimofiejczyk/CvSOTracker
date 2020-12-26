@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A349A91B70F00F09E51E1141 /* Pods_Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024C6D89F408006B4F0F255A /* Pods_Services.framework */; };
 		BD80292C0F0298245535E436 /* Pods_cvsotracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E21ED3D678AA5528E75F10 /* Pods_cvsotracker.framework */; };
-		DB08D4102597758100B175B8 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = DB08D40F2597758100B175B8 /* .travis.yml */; };
 		DB132745240FEA3900455E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB132744240FEA3900455E1E /* AppDelegate.swift */; };
 		DB132747240FEA3900455E1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB132746240FEA3900455E1E /* SceneDelegate.swift */; };
 		DB132751240FEA3B00455E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB13274F240FEA3B00455E1E /* LaunchScreen.storyboard */; };
@@ -96,7 +95,6 @@
 		66D77735A55216FB6A6C75B4 /* Pods-cvsotracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cvsotracker.debug.xcconfig"; path = "Target Support Files/Pods-cvsotracker/Pods-cvsotracker.debug.xcconfig"; sourceTree = "<group>"; };
 		81E21ED3D678AA5528E75F10 /* Pods_cvsotracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cvsotracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CABC7B57BB274A621662C7 /* Pods-BLNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLNetworking.debug.xcconfig"; path = "Target Support Files/Pods-BLNetworking/Pods-BLNetworking.debug.xcconfig"; sourceTree = "<group>"; };
-		DB08D40F2597758100B175B8 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = SOURCE_ROOT; };
 		DB132741240FEA3900455E1E /* CvSOTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CvSOTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB132744240FEA3900455E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB132746240FEA3900455E1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -289,7 +287,6 @@
 		DB4FFA0D240FEDE300B6BFBE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DB08D40F2597758100B175B8 /* .travis.yml */,
 				DB132771240FEB6900455E1E /* ToU.html */,
 				DB13274A240FEA3B00455E1E /* Assets.xcassets */,
 				DB13274F240FEA3B00455E1E /* LaunchScreen.storyboard */,
@@ -473,7 +470,6 @@
 				DB132751240FEA3B00455E1E /* LaunchScreen.storyboard in Resources */,
 				DB132786240FEB6900455E1E /* DataSource.html in Resources */,
 				DB13278A240FEB6900455E1E /* MIT.html in Resources */,
-				DB08D4102597758100B175B8 /* .travis.yml in Resources */,
 				DB13278C240FEB6900455E1E /* ToU.html in Resources */,
 				DB132787240FEB6900455E1E /* Preview Assets.xcassets in Resources */,
 				DB132788240FEB6900455E1E /* Assets.xcassets in Resources */,

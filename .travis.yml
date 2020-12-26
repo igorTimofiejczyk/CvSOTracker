@@ -2,6 +2,7 @@ language: objective-c
 osx_image: xcode11.6
 
 before_install:
+  - cd cvsotracker-ios/
   - pod install
 
 script:
