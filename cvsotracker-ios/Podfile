@@ -1,0 +1,22 @@
+platform :ios, '13.0'
+use_frameworks!
+inhibit_all_warnings!
+
+def services_pods
+   pod 'CocoaLumberjack/Swift'
+end
+
+target 'cvsotracker' do
+  use_frameworks!
+
+  pod 'SwiftLint'
+end
+
+target 'Services' do
+   services_pods
+end
+
+
+target 'BLNetworking' do
+   pod 'Alamofire', '~> 5.0'
+end

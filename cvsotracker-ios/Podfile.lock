@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (5.0.5)
+  - CocoaLumberjack/Core (3.6.1)
+  - CocoaLumberjack/Swift (3.6.1):
+    - CocoaLumberjack/Core
+  - SwiftLint (0.39.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0)
+  - CocoaLumberjack/Swift
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaLumberjack
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  SwiftLint: 55e96a4a4d537d4a3156859fc1c54bd24851a046
+
+PODFILE CHECKSUM: 21406a8cb50f63c93ec01c908fe66b548a056d04
+
+COCOAPODS: 1.9.3
