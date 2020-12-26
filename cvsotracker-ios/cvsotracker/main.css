@@ -1,0 +1,27 @@
+body {
+    font: -apple-system-body;
+    -webkit-text-size-adjust: 100%;
+}
+/* Dark Mode Support in WebKit
+ https://webkit.org/blog/8840/dark-mode-support-in-webkit/ */
+:root {
+    color-scheme: light dark;
+    --special-text-color: hsla(60, 100%, 50%, 0.5);
+    --border-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --special-text-color: hsla(60, 50%, 70%, 0.75);
+        --border-color: white;
+    }
+}
+
+.special {
+    color: var(--special-text-color);
+    border: 1px solid var(--border-color);
+}
+
+a {
+  color: #3498eb;
+}

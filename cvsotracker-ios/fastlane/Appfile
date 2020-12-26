@@ -1,0 +1,8 @@
+app_identifier("org.90afa09f-b25b-48c5-9914-c4878609efe9.cvsotracker") # The bundle identifier of your app
+apple_id("igarekas@gmail.com") # Your Apple email address
+
+itc_team_id("121123526") # App Store Connect Team ID
+team_id("2GBFVLY769") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
