@@ -8,4 +8,4 @@ Data currently available on the following zoom levels: City level - US, Canada a
 
 It was developed to provide researchers, public health authorities and the general public with a user-friendly tool to track the outbreak as it unfolds.
 
-[Android Version at github](https://bitbucket.org/cvsotracker/cvsotracker-an-pub/src/develop/?atlOrigin=eyJpIjoiMWRiZjlmZjhkYmE3NDg0Mzk3NWI3ODZhZjczNGQyODQiLCJwIjoiYmItY2hhdHMtaW50ZWdyYXRpb24ifQ)
+[Android Version at bitbucket](https://bitbucket.org/cvsotracker/cvsotracker-an-pub/src/develop/?atlOrigin=eyJpIjoiMWRiZjlmZjhkYmE3NDg0Mzk3NWI3ODZhZjczNGQyODQiLCJwIjoiYmItY2hhdHMtaW50ZWdyYXRpb24ifQ)
